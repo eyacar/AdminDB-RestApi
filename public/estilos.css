@@ -1,0 +1,19 @@
+#contenedor{background-color: aqua;
+width: 100%;
+text-align: center;
+padding-top: 3%;}
+.log{
+width: 30%;
+margin: 3% auto;
+}
+.log input{display: block;
+margin: 0 auto;
+margin-bottom: 3%;}
+.btn{display: block;
+width: 20%;
+margin: 3% auto;}
+#search{ width: 30%;margin: 2% auto;}
+#search label{display: block;}
+#libros{position: absolute;
+background-color: beige;text-align: left;}
+li{list-style: none;}
