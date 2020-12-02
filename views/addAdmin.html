@@ -11,6 +11,9 @@
     <div>
         {% if level === 1 %}
         <h1>Hi {{user}} you can add an admin user</h1>
+        {% if addU === true %}
+        <h2>{{userNew}} was added successfully</h2>
+        {% endif %}
         <form class="log" method="POST" action="/addAdmin">
             <label for="user">User</label>
             <input type="text" name="user" placeholder="User.." required>

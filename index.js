@@ -83,7 +83,7 @@ else{
                 }
                 db.close()
             })
-            res.status(200).render('addAdmin.html',{addU:addU, userNew:req.body.user,user:req.session.nombre})
+            res.status(200).render('addAdmin.html',{addU:addU, userNew:req.body.user,user:req.session.nombre, level:req.session.level})
         })
     }
 }});
